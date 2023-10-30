@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#cv {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#contact {
+    margin-bottom: 20px;
+}
+
+#objective {
+    margin-bottom: 20px;
+}
+
+#skills {
+    margin-bottom: 20px;
+}
+
+#education, #work-experience, #awards, #memberships, #volunteer-work, #languages, #hobbies {
+    margin-bottom: 20px;
+}

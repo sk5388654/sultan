@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sultan Shah - CV</title>
+    <style>
+        /* Your existing CSS styles */
+        /* ... */
+
+        #contact-button {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #contact-info {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="cv">
+        <!-- Your existing CV content -->
+
+        <!-- Contact Button -->
+        <div id="contact-button">
+            <button onclick="toggleContact()">Contact Information</button>
+        </div>
+        <div id="contact-info">
+            <!-- Contact Information -->
+            <p><strong>Address:</strong> Peshawar, Malakand</p>
+            <p><strong>Phone:</strong> 0342-3504085</p>
+            <p><strong>Email:</strong> sk5388654@gmail.com</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleContact() {
+            var contactInfo = document.getElementById("contact-info");
+            if (contactInfo.style.display === "none") {
+                contactInfo.style.display = "block";
+            } else {
+                contactInfo.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
